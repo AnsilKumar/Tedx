@@ -36,6 +36,7 @@ export function ThreeDMarquees() {
   ];
 
   return (
+
     <div className="md:h-screen mb-32 sm:mb-0  relative flex justify-center items-center overflow-hidden">
       <div className="absolute flex w-full h-full justify-center items-center">
         <h1 className=" relative text-white font-bold leading-tight text-6xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[10rem]">

@@ -16,7 +16,7 @@ interface TooltipButtonProps {
 export default function TooltipButton({
   children,
   tooltip = "Tooltip",
-  hoverText = "BOOK TICKETS",
+  hoverText,
   hoverLink,
   className,
   target,

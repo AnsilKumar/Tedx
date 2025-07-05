@@ -5,19 +5,19 @@ import { Timeline } from "@/components/ui/timeline";
 
 export function Event() {
   const eventData = [
-    { title: "09:30 AM", content: <p className="font-bold">Inauguration & TEDx Rules</p> },
-    { title: "10:00 AM", content: <p className="font-bold">Speaker 1</p> },
-    { title: "10:25 AM", content: <p className="font-bold">Speaker 2</p> },
-    { title: "11:00 AM", content: <p className="font-bold">Speaker 3</p> },
-    { title: "11:25 AM", content: <p className="font-bold">Speaker 4</p> },
-    { title: "12:00 PM", content: <p className="font-bold">Interactive Session 1</p> },
-    { title: "12:40 PM", content: <p className="font-bold">Lunch Break</p> },
-    { title: "02:00 PM", content: <p className="font-bold">Speaker 5</p> },
-    { title: "02:25 PM", content: <p className="font-bold">Speaker 6</p> },
-    { title: "03:00 PM", content: <p className="font-bold">Speaker 7</p> },
-    { title: "03:25 PM", content: <p className="font-bold">Speaker 8</p> },
-    { title: "03:50 PM", content: <p className="font-bold">Interactive Session 2</p> },
-    { title: "04:30 PM", content: <p className="font-bold">Valedictory Ceremony</p> },
+    { title: "09:30 AM", content: <p className="font-bold min-w-20">Inauguration & TEDx Rules</p> },
+    { title: "10:00 AM", content: <p className="font-bold min-w-20">Speaker 1</p> },
+    { title: "10:25 AM", content: <p className="font-bold min-w-20">Speaker 2</p> },
+    { title: "11:00 AM", content: <p className="font-bold min-w-20">Speaker 3</p> },
+    { title: "11:25 AM", content: <p className="font-bold min-w-20">Speaker 4</p> },
+    { title: "12:00 PM", content: <p className="font-bold min-w-20">Interactive Session 1</p> },
+    { title: "12:40 PM", content: <p className="font-bold min-w-20">Lunch Break</p> },
+    { title: "02:00 PM", content: <p className="font-bold min-w-20">Speaker 5</p> },
+    { title: "02:25 PM", content: <p className="font-bold min-w-20">Speaker 6</p> },
+    { title: "03:00 PM", content: <p className="font-bold min-w-20">Speaker 7</p> },
+    { title: "03:25 PM", content: <p className="font-bold min-w-20">Speaker 8</p> },
+    { title: "03:50 PM", content: <p className="font-bold min-w-20">Interactive Session 2</p> },
+    { title: "04:30 PM", content: <p className="font-bold min-w-20">Valedictory Ceremony</p> },
   ];
 
 
