@@ -33,7 +33,7 @@ const OrganizerData: OrganizerData[] = [
       },
       {
         image: "/Organiser/satwik.png",
-        name: "Satwik.png",
+        name: "Satwik",
         Tag: "Mentor",
       }
     ],
