@@ -39,6 +39,23 @@ const OrganizerData: OrganizerData[] = [
     ],
   },
   {
+    Team: "Content Team",
+    Profile: [  
+      {
+        image: "/Organiser/contentteam/prathib.png",
+        name: "Prathibha",
+      },
+      {
+        image: "/Organiser/contentteam/sharvari.png",
+        name: "Sharvari",
+      },
+      {
+        image: "/Organiser/contentteam/trisha.png",
+        name: "Trisha",
+      },
+    ],
+  },
+  {
     Team: "Speaker Curation",
     Profile: [
       {

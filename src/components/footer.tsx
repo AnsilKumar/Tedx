@@ -101,7 +101,7 @@ export default function Footer() {
                         href={link.href}
                         target={link.external ? "_blank" : undefined}
                         rel={link.external ? "noopener noreferrer" : undefined}
-                        className={`hover:text-ted-red transition-colors ${
+                        className={`hover:text-ted-red transition-colors w-f ${
                           link.bold ? "font-bold" : ""
                         }`}
                       >
@@ -152,7 +152,7 @@ export default function Footer() {
                     },
                   ].map((link) => (
                     <li key={link.text}>
-                      <a
+                      <Link
                         href={link.href}
                         target={link.external ? "_blank" : undefined}
                         rel={link.external ? "noopener noreferrer" : undefined}
@@ -161,7 +161,7 @@ export default function Footer() {
                         }`}
                       >
                         <HyperText>{link.text}</HyperText>
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>

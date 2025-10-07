@@ -20,6 +20,7 @@
     "@vercel/blob": "^1.1.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "critters": "^0.0.23",
     "dotenv": "^16.5.0",
     "dotted-map": "^2.2.3",
     "drizzle-orm": "^0.44.2",
